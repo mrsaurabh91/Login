@@ -29,14 +29,11 @@
         android:layout_centerInParent="true"
         android:layout_gravity="center_horizontal"/>
 
-    <Button
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/logoutButton"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentBottom="true"
-        android:hint="Logout"
-        />
+        android:layout_centerInParent="true"/>
 
 
 </RelativeLayout>

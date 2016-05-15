@@ -9,11 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.facebook.login.LoginManager;
+import com.facebook.login.widget.LoginButton;
 
 public class UserInfoActivity extends AppCompatActivity {
 
         TextView textView;
-        Button button;
+        LoginButton button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class UserInfoActivity extends AppCompatActivity {
 
   //      new DownloadFilesTask().execute(imageUrl);
         System.out.print("I am in after OnCreate ");
-        button = (Button)findViewById(R.id.logoutButton);
+       /* button = (Button)findViewById(R.id.login_button);*/
 
     }
 
